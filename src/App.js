@@ -71,9 +71,7 @@ class App extends Component {
   playAll() {
     console.log("playall");
 
-    // if (this.counter === 9) {
     this.setState({ play: true });
-    //
   }
   stopAll() {
     console.log("");
