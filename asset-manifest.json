@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/loop-machine/static/css/main.22ea66e6.css",
+    "main.js": "/loop-machine/static/js/main.7e8d297b.js",
+    "static/js/787.eb89f07d.chunk.js": "/loop-machine/static/js/787.eb89f07d.chunk.js",
+    "static/media/ALL_TRACK.mp3": "/loop-machine/static/media/ALL_TRACK.0fa4445ea8455a4babf4.mp3",
+    "static/media/B_VOC.mp3": "/loop-machine/static/media/B_VOC.5ffa9906c5972f1fb03c.mp3",
+    "static/media/HE_HE_VOC.mp3": "/loop-machine/static/media/HE_HE_VOC.fd659059c1d55320658f.mp3",
+    "static/media/HIGH_VOC.mp3": "/loop-machine/static/media/HIGH_VOC.f09f6e03383b234370d0.mp3",
+    "static/media/JIBRISH.mp3": "/loop-machine/static/media/JIBRISH.d23f0b604ef55163d7e6.mp3",
+    "static/media/LEAD1.mp3": "/loop-machine/static/media/LEAD1.f8658c330b3d07661550.mp3",
+    "static/media/drums.mp3": "/loop-machine/static/media/drums.f0332952662d2e1f5d15.mp3",
+    "static/media/tambourine_shake_higher.mp3": "/loop-machine/static/media/tambourine_shake_higher.2ceb47bfdbea6e81aae9.mp3",
+    "index.html": "/loop-machine/index.html",
+    "main.22ea66e6.css.map": "/loop-machine/static/css/main.22ea66e6.css.map",
+    "main.7e8d297b.js.map": "/loop-machine/static/js/main.7e8d297b.js.map",
+    "787.eb89f07d.chunk.js.map": "/loop-machine/static/js/787.eb89f07d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22ea66e6.css",
+    "static/js/main.7e8d297b.js"
+  ]
+}
