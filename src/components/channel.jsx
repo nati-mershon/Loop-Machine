@@ -21,13 +21,14 @@ class Channel extends Component {
   }
 
   toggleMute = () => {
+    // a func to mute the channel
     console.log("mute" + this.props.id);
     this.setState({ mute: !this.state.mute }, () => {
       this.state.mute ? (this.audio.muted = true) : (this.audio.muted = false);
     });
   };
   componentDidMount() {
-    // this.props.onready();
+    //func to know the audio stat
     this.audio.addEventListener("ended", () => {
       console.log("ended");
       this.props.st.play = false;
@@ -42,12 +43,11 @@ class Channel extends Component {
   }
 
   componentDidUpdate() {
+    //after the update from app the play all and loop all func
     this.init();
   }
 
   init() {
-    // this.audio.currentTime = this.props.st.milseconds;
-    //this.audio.fastSeek(20);
     this.audio.loop = this.props.st.loop;
     console.log("didUpdate" + this.props.st.play);
     if (this.props.st.play) this.audio.play();
@@ -59,9 +59,9 @@ class Channel extends Component {
 
   render() {
     console.log("render channel");
-    // this.state.play ? this.audio.play() : this.audio.pause();
 
     return (
+      //set the channel
       <div>
         <div
           style={{
@@ -77,7 +77,7 @@ class Channel extends Component {
               backgroundColor: this.props.color,
             }}
           ></div>
-          <ToggleButton
+          <ToggleButton //mute button
             style={{
               width: 50,
               height: 30,

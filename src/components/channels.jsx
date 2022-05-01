@@ -11,6 +11,7 @@ import LEAD1 from "../sounds/LEAD1.mp3";
 import UUHO_VOC from "../sounds/ALL_TRACK.mp3";
 
 class Channels extends Component {
+  //set all audio
   sounds = [
     { id: 1, sound: drums, color: "#3e3fe2" },
     { id: 2, sound: tambourine_shake_higher, color: "#3d8be0" },
